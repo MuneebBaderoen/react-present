@@ -12,7 +12,6 @@ export default class Slide extends React.Component {
     return (
       <div>
         <ListBlock title="What is React" items={ listItems }/>
-        <a href="http://jsfiddle.net/tiagorg/5L9qxnsq/">check fiddle performance</a>
       </div>
     );
   }

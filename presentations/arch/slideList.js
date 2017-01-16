@@ -13,12 +13,11 @@ import ReactPerforms from './ReactPerforms';
 import ReactRehab from './ReactRehab';
 import ReactBonuses from './ReactBonuses';
 import ReactIsnt from './ReactIsnt';
-import ReactCons from './ReactCons';
-
+import ThrowMyChild from './ThrowMyChild';
 
 const slideComponents = [
   Title,
-  What,
+  // What,
   WhatList,
   Questions,
   TheProblem,
@@ -27,10 +26,10 @@ const slideComponents = [
   TheReactWay,
   ReactIs,
   ReactPerforms,
+  ThrowMyChild,
   ReactRehab,
   ReactBonuses,
   ReactIsnt,
-  ReactCons
 ];
 
 export default slideComponents.map((SlideComponent, idx) => {

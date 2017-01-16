@@ -3,7 +3,9 @@ import ListBlock from 'components/ListBlock';
 
 const listItems = [
   'A javascript framework',
-  'Doesnt come with the \'VC\' in MVC'
+  'Doesnt come with the \'VC\' in MVC',
+  'It means learning (an afternoon? for Laura and Levente)',
+  'Segmentation (how do we get to core?)'
 ];
 
 export default class Slide extends React.Component {
